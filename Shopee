@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Achados da Shopee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ff6600, #ffcc00);
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+    .button {
+      display: block;
+      margin: 10px auto;
+      padding: 15px 25px;
+      background-color: #fff;
+      color: #ff6600;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1em;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background-color: #ffcc00;
+      color: #000;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Achados da Shopee 🛍️</h1>
+    <p>Os melhores achados da Shopee em um só lugar! Clique e aproveite:</p>
+
+    <!-- LINKS DE PRODUTOS -->
+    <a href="https://shopee.com.br/seu-link1" class="button">🧥 Moletom Estiloso</a>
+    <a href="https://shopee.com.br/seu-link2" class="button">⌚ Relógio Barato</a>
+    <a href="https://shopee.com.br/seu-link3" class="button">🎧 Fone sem Fio Top</a>
+    <a href="https://shopee.com.br/seu-link4" class="button">👟 Tênis em Promoção</a>
+
+    <!-- LINK PARA INSTAGRAM OU WHATSAPP -->
+    <a href="https://instagram.com/seuperfil" class="button">📲 Me siga no Instagram</a>
+
+    <div class="footer">
+      Página feita com 💖 por @top.das.promocoes
+    </div>
+  </div>
+</body>
+</html>
